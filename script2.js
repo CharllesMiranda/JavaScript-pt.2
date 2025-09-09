@@ -14,8 +14,8 @@ select.addEventListener("change", function(){    // addEventListener
 
             //Outra forma de usar o addEventListener para pegar muitas opções do evento
 
-function troqueiValor (event){
-    console.log(event) 
+function troqueiValor (event){ //Posso colocar outra palavra dentro onde escrevi event
+    console.log(event)         // Mas é commum usar event
 }
 
 select.addEventListener("change", troqueiValor)
